@@ -30,7 +30,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,77.8,100..900;1,77.8,100..900&display=swap" rel="stylesheet">
 </head>
 <body class="background-color">
-    <div class="container"></div>
+    <main>
         <nav class="navbar navbar-expand-md">
             <div class="container">
                 <span class="navbar-brand">
@@ -42,16 +42,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="./index.html" class="nav-link text-end">Etusivu</a>
+                            <a href="./index.html" class="nav-link text-end">Main</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./info.html" class="nav-link text-end">Osaaminen</a>
+                            <a href="./info.html" class="nav-link text-end">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./projects.html" class="nav-link text-end roboto">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a href="./minusta.html" class="nav-link text-end roboto">Henry</a>
                         </li>
                         <li class="nav-item">
-                            <a href="./contact.html" class="nav-link text-end">Yhteystiedot</a>
+                            <a href="./contact.html" class="nav-link text-end">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -59,35 +62,35 @@
         </nav>
         <section class="container">
             <h1 class="text-center mt-3 mb-4">Henry Djupsjöbacka</h1>
-                
                 <div class="row container-sm">
                     <div class="col-sm container text-center mb-4">
                         <img src="./img/harmaa.jpg" alt="harmaa" id="spesific-image">
                     </div>
                     <div class="col-sm">
-                        <p class="fs-4">Osaaminen:</p>
-                        <ul>
+                        <p class="fs-5">Through my study projects, I have gained experience with the following technologies:</p>
+                        <ul class="osaaminen-grid">
                             <li>HTML</li>
-                            <li>GitHub</li>
-                            <li>GitHub versiohallinta</li>
-                            <li>Bootstrap</li>
                             <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
                             <li>Python</li>
+                            <li>GitHub</li>
+                            <li>Version control with GitHub</li>
                         </ul>
                         <div class="fs-5">
-                            <p>
-                                Tähän mennessä opiskeluitani olen saanut hyvän otteen
-                                edellä mainituista tekniikoista.
-                            </p>
-                            <p>Haluaisin kuitenkin oppia lisää oikeassa työympäristössä.</p>
-                            <p>Jos kiinnostuit otathan rohkeasti yhteyttä! Yhteystietoni löytyvät <a href="./contact.html">täältä</a>.</p>
+                            <p>In addition, I have practiced full-stack development in a <strong>Node.js</strong> environment and built small-scale server-side projects.</p>
+                            <p>I am curious and eager to deepen my knowledge of these technologies. The Junior Web Developer position you’ve advertised seems like an ideal opportunity to do just that.</p>
+                            <p>I am comfortable working in both Finnish and English.</p>
+                            <p>If you're interested, feel free to <a href="./contact.html">get in touch!</a></p>
                         </div>
                     </div>
                 </div>
         </section>
-        <footer class="footer-name">
-            <p>Henry Djupsjöbacka - Portfolio 2025</p>
-        </footer>
+    </main>
+    <footer class="footer-name">
+        <p>Henry Djupsjöbacka - Portfolio 2025</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

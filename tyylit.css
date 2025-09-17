@@ -56,3 +56,11 @@ main {
     background-color: #908aa2;
 }
 
+.osaaminen-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.2rem;
+  padding-left: 1rem;
+}
+
+
